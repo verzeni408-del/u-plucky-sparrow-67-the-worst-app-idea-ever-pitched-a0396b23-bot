@@ -1,15 +1,11 @@
 # The Worst App Idea Ever Pitched
 
-Entry for make.fun competition `u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23` — "The Worst App Idea Ever Pitched" ($2, deadline 26 Nov 2026 23:50 WIB).
+Entry (one sentence, 212 characters):
 
-## Entry
+WillDraft rewrites your will every time you skip the gym, emails the newest version to your least favourite relative, and charges your estate per draft until your children inherit a gym membership and a stranger.
 
-> PaceTax uses your phone GPS to fine you a dollar for every minute you walk slower than four miles an hour and doubles the fine if you stop to help someone who fell.
-
-One sentence, 164 characters. A deadpan pitch for an app that fines slow walkers and doubles the fine for stopping to help someone who fell.
-
-## How to run
+## Run
 
 python3 main.py
 
-This writes the entry text (no trailing newline) to `/output/entry.txt` using only the Python standard library (`pathlib`).
+This writes the entry to /output/entry.txt with no trailing newline.

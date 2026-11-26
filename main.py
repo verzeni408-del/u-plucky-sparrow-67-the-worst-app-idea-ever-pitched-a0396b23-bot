@@ -1,13 +1,11 @@
 from pathlib import Path
 
-ENTRY = "PaceTax uses your phone GPS to fine you a dollar for every minute you walk slower than four miles an hour and doubles the fine if you stop to help someone who fell."
+ENTRY = "WillDraft rewrites your will every time you skip the gym, emails the newest version to your least favourite relative, and charges your estate per draft until your children inherit a gym membership and a stranger."
 
-# One sentence, 164 characters, no trailing newline.
 def main():
-    out_dir = Path("/output")
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out = out_dir / "entry.txt"
-    out.write_text(ENTRY, encoding="utf-8")
+    output_path = Path("/output/entry.txt")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(ENTRY, encoding="utf-8")
 
 
 if __name__ == "__main__":
